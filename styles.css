@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=VT323&display=swap');
+:root{
+    --bg-main: #212529;
+    --bg-header-footer: #E5E5E5;
+    --dark-text: #212529;
+    --light-text: #F8F9FA;
+    --accent-nes: #E60012;
+    --accent-snes: #5A4A9C;
+
+    --font-title: 'Press Start 2P', cursive;
+    --font-body: 'Inter Tight', sans-serif;
+    --font-subtitle: 'VT323', monospace;
+}
+
+header, footer{
+    background-color: var(--bg-header-footer);
+    color: var(--dark-text);
+    padding: 1rem;
+    text-align: center;
+}
+
+body{
+    background-color: var(--bg-main);
+    color: var(--light-text);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: var(--font-body);
+}
+
+h1{
+    font-family: var(--font-title);
+}
+
+h2{
+    font-family: var(--font-subtitle);
+}
