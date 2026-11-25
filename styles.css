@@ -38,3 +38,52 @@ h1{
 h2{
     font-family: var(--font-subtitle);
 }
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+#home_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .5fr 1fr 1fr;
+}
+
+#home_header{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#home_intro{
+    grid-row: 2;
+    grid-column: 1/4;
+}
+
+#nes_console{
+    grid-row: 3;
+    grid-column: 1;
+    border: solid 5px;
+    border-color: var(--accent-nes);
+}
+
+#snes_console{
+    grid-row: 3;
+    grid-column: 3;
+    border: solid 5px;
+    border-color: var(--accent-snes);
+}
+
+#my_experience_title{
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+
+#my_experience_par{
+    grid-row: 4;
+    grid-column: 1/4;
+}
